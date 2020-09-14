@@ -1,0 +1,139 @@
+.header {
+  color: #000000;
+  font-weight: 100;
+  color: #808080
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cal-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 320px;
+  background-color: white;
+  margin: 10px;
+  width: 210px;
+}
+
+.container {
+  background-color: #bbc4cc;
+  padding-bottom: 60px;
+}
+
+.cal-haeder {
+  background-color: #B19CD9;
+  height: 50px;
+  justify-content: right;
+  text-align: right;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #ffffff
+}
+
+.interaction-container {
+  display: flex;
+  margin: 10px;
+  width: 100%;
+  justify-content: left;
+}
+
+#text-area {
+  height: 450px;
+  flex: 1.5;
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 40px;
+  height: 450px;
+}
+
+#year {
+  width: 250px;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 40px;
+  border: none;
+  border-radius: .1em;
+}
+
+#update-button {
+  padding: 10px;
+  font-size: 18px;
+  width: 150px;
+  background-color: #0080ff;
+  border-radius: .2em;
+  color: white;
+  border: none;
+}
+
+.year-label {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: grey
+}
+
+.cal-content {
+  display: flex;
+  width: 100%;
+  display: grid;
+  grid-auto-flow: row dense;
+}
+
+.initials {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+}
+
+.card-init {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.cal-content1 {
+  grid-template-columns: repeat(1, minmax(0px, 1fr));
+}
+
+.cal-content2 {
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+}
+
+.cal-content3 {
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+}
+
+.card-init1 {
+  height: 250px;
+}
+
+.card-init2 {
+  height: 125px;
+}
+
+.card-init3 {
+  height: 83.33px;
+}
+
+.error {
+  padding: 20px;
+  border: solid 1px #FF0000;
+  width: 300px;
+  margin: 40px 0;
+  color: #FF0000;
+  display: none;
+}
